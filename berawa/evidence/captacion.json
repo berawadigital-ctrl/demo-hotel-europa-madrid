@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-europa-madrid",
+ "maps": {
+  "fecha": "2026-10-29T01:23:15+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Europa Madrid",
+  "nota": 4.5,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hotel+Europa+Madrid/@40.4175032,-3.7033915,17z/data=!4m9!3m8!1s0xd42287e05a2aa03:0x463fb2471eaed730!5m2!4m1!1i2!8m2!3d40.4175032!4d-3.7033915!16s%2Fg%2F1jglzv9l0",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T01:23:15+01:00",
+  "veredicto": "DUDOSA",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "GARABAN VICENTE, S.A.",
+  "cif": "A81841942",
+  "fuente": "https://www.hoteleuropa.eu/aviso-legal/",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "Titular segun el aviso legal. La web presenta un solo hotel; sin marca ni operador en OSM; sin otros establecimientos conocidos. Nota: veredicto_web DUDOSA pero LCP > 4 s (umbral de Juan) cumplido."
+ }
+}

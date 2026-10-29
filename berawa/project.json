@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-europa-madrid",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T01:45:00+01:00",
+ "updated_at": "2026-10-29T01:49:00+01:00",
+ "business": {
+  "name": "Hotel Europa",
+  "legal_name": "GARABAN VICENTE, S.A.",
+  "registry_ids": [
+   "CIF A81841942"
+  ],
+  "url": "https://www.hoteleuropa.eu/",
+  "domain": "hoteleuropa.eu",
+  "municipality": "Madrid",
+  "province": "Madrid",
+  "address": "Calle del Carmen 4 · 28013 Madrid",
+  "phones": [
+   "91 521 29 00"
+  ],
+  "emails": [
+   "info@hoteleuropa.eu"
+  ],
+  "sector": "hotel de tres estrellas en el centro historico"
+ },
+ "rating": {
+  "value": 4.5,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Europa+Madrid/@40.4175032,-3.7033915,17z/data=!4m9!3m8!1s0xd42287e05a2aa03:0x463fb2471eaed730!5m2!4m1!1i2!8m2!3d40.4175032!4d-3.7033915!16s%2Fg%2F1jglzv9l0",
+  "date": "2026-10-29T01:23:15+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "email": "info@hoteleuropa.eu",
+  "note": "La web del negocio reserva con el motor Mirai (widget sin URL propia): la demo usa solo contacto real (correo y telefono)."
+ },
+ "audit_original": {
+  "url": "https://www.hoteleuropa.eu/",
+  "date": "2026-10-29T01:45:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "primer tipo de negocio sin precedente: hotel urbano de tres estrellas (el modelo aprobado Cazorla Rural es alojamiento rural)",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}

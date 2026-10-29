@@ -1,0 +1,54 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hoteleuropa.eu/",
+ "read_at": "2026-10-29T01:46:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hoteleuropa.eu/",
+   "sha256": "ff4ac012d683bc5d492e9f4c5171affc783f2ffcfe54e3a6667820788a35567b",
+   "chars": 4150
+  },
+  {
+   "url": "https://www.hoteleuropa.eu/aviso-legal/",
+   "sha256": "b3df8f34ca2cb26bcbf346509996386c4df7bcc0969fd1d64e89ec2096913976",
+   "chars": 5956
+  },
+  {
+   "url": "https://www.hoteleuropa.eu/cafe-europa/",
+   "sha256": "3f3744381bc5558a03b2427b7ebcb517b57e5f3b08908b967d24cffcc320765d",
+   "chars": 3287
+  },
+  {
+   "url": "https://www.hoteleuropa.eu/habitaciones-adaptadas/",
+   "sha256": "ffa24c79be259adb6356f1b06031db27a6e0769f2c0efae9bd8af81563b2040c",
+   "chars": 3444
+  },
+  {
+   "url": "https://www.hoteleuropa.eu/habitaciones/",
+   "sha256": "1d56027c4903b708717559a5edf78696f25a015bba279d33e21b7794b93b61b4",
+   "chars": 10336
+  },
+  {
+   "url": "https://www.hoteleuropa.eu/puertadelsol-madrid-centro/",
+   "sha256": "10938db36602ae622d0ba2f4bf9abc177d0cd8903e1f0582fd7468cc09de2b4c",
+   "chars": 3699
+  },
+  {
+   "url": "https://www.hoteleuropa.eu/servicios/",
+   "sha256": "c16d37347329babb85a27bc21dfe501df88cb70859f21142711555e6ce9e1806",
+   "chars": 5481
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hoteleuropa.eu",
+  "https://www.hoteleuropa.eu/contacto/",
+  "https://www.hoteleuropa.eu/elige-tu-habitacion/",
+  "https://www.hoteleuropa.eu/en/",
+  "https://www.hoteleuropa.eu/experiencias/",
+  "https://www.hoteleuropa.eu/fr/",
+  "https://www.hoteleuropa.eu/galeria/",
+  "https://www.hoteleuropa.eu/politica-de-cookies/",
+  "https://www.hoteleuropa.eu/promociones/"
+ ]
+}
