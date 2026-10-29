@@ -1,0 +1,455 @@
+{
+ "url": "file:///tmp/clon-hotel-europa-madrid/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué tipos de habitación hay?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hay habitaciones individuales, dobles y suites para un máximo de 4 personas (suite de 2 habitaciones independientes y 2 baños), con vistas a"
+    },
+    {
+     "q": "¿Hay caja fuerte y wifi?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Todas las habitaciones tienen baño completo con secador de pelo, TV con canales internacionales, teléfono directo, caja fuerte gratuita, ref"
+    },
+    {
+     "q": "¿Cuánto cuesta una habitación?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Tarifas «desde» por noche, según su web (29/10/2026): 92 € la individual; 102 € la doble; 112 € la individual con vistas a la Puerta del Sol"
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Su web indica que no admiten mascotas."
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Tiene parking concertado en la calle Arenal y en la calle Jacometrezo, a 200 metros del hotel, con plazas limitadas y reserva previa. Su web"
+    },
+    {
+     "q": "¿Hay restaurante o cafetería?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Café Europa está abierto al público: desayunos, menú especial, tapas, meriendas, cenas y cócteles en una terraza en la Puerta del Sol. Su we"
+    },
+    {
+     "q": "¿Hay habitaciones adaptadas?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Tiene 3 habitaciones adaptadas para personas con movilidad reducida, bajo petición: dos para un máximo de 2 personas y una para 3. Su web ta"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Su web recomienda reservar en su propia web (precio mínimo garantizado). Aquí puedes escribir a info@hoteleuropa.eu o llamar al +34 915 21 2"
+    },
+    {
+     "q": "¿Cómo llego en metro?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Está en la calle del Carmen 4, 28013 Madrid, en plena Puerta del Sol, en una calle peatonal. En la plaza hay metro (líneas 1, 2 y 3) y cerca"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Teléfonos +34 915 21 29 00 y +34 626 482 038; correo info@hoteleuropa.eu."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Su aviso legal indica como denominación social Garabán Vicente, S.A. (CIF A81841942), con domicilio en la calle del Carmen 4, Madrid."
+    },
+    {
+     "q": "¿Cuántas estrellas tiene?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su web lo presenta como Hotel Europa *** (tres estrellas) y cuenta que ocupa un edificio clásico del año 1860, donde nació el 23 de marzo de"
+    },
+    {
+     "q": "¿Hay recepción 24 horas?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "La recepción atiende las 24 horas del día, con equipo multilingüe en español, inglés, francés, italiano y portugués."
+    },
+    {
+     "q": "¿Tienen piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 91 521 29 00 · info@hoteleuropa.eu."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Su web recomienda reservar en su propia web (precio mínimo garantizado). Aquí puedes escribir a info@hoteleuropa.eu o llamar al +34 915 21 2"
+    },
+    {
+     "q": "¿Hay gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 91 521 29 00 · info@hoteleuropa.eu."
+    }
+   ],
+   "chips": [
+    "¿Cuánto cuesta una habitación?",
+    "¿Hay parking?",
+    "¿Admiten mascotas?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "send",
+    "stat1",
+    "stat3",
+    "svc1",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quins tipus d'habitació hi ha?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hi ha habitacions individuals, dobles i suites per a un màxim de 4 persones (suite de 2 habitacions independents i 2 banys), amb vistes al p"
+    },
+    {
+     "q": "Hi ha caixa forta i wifi?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Totes les habitacions tenen bany complet amb assecador de cabells, TV amb canals internacionals, telèfon directe, caixa forta gratuïta, neve"
+    },
+    {
+     "q": "Quant costa una habitació?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Tarifes «des de» per nit, segons la seva web (29/10/2026): 92 € la individual; 102 € la doble; 112 € la individual amb vistes a la Puerta de"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "La seva web indica que no admeten mascotes."
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Té pàrquing concertat al carrer Arenal i al carrer Jacometrezo, a 200 metres de l'hotel, amb places limitades i reserva prèvia. La seva web "
+    },
+    {
+     "q": "Hi ha restaurant o cafeteria?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Café Europa està obert al públic: esmorzars, menú especial, tapes, berenars, sopars i còctels en una terrassa a la Puerta del Sol. La seva w"
+    },
+    {
+     "q": "Hi ha habitacions adaptades?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Té 3 habitacions adaptades per a persones amb mobilitat reduïda, sota petició: dues per a un màxim de 2 persones i una per a 3. La seva web "
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "La seva web recomana reservar a la seva pròpia web (preu mínim garantit). Aquí pots escriure a info@hoteleuropa.eu o trucar al +34 915 21 29"
+    },
+    {
+     "q": "Com arribo amb metro?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "És al carrer del Carmen 4, 28013 Madrid, en plena Puerta del Sol, en un carrer de vianants. A la plaça hi ha metro (línies 1, 2 i 3) i rodal"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Telèfons +34 915 21 29 00 i +34 626 482 038; correu info@hoteleuropa.eu."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "El seu avís legal indica com a denominació social Garabán Vicente, S.A. (CIF A81841942), amb domicili al carrer del Carmen 4, Madrid."
+    },
+    {
+     "q": "Quantes estrelles té?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "La seva web el presenta com a Hotel Europa *** (tres estrelles) i explica que ocupa un edifici clàssic de l'any 1860, on va néixer el 23 de "
+    },
+    {
+     "q": "Hi ha recepció 24 hores?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "La recepció atén les 24 hores del dia, amb equip multilingüe en castellà, anglès, francès, italià i portuguès."
+    },
+    {
+     "q": "Teniu piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 91 521 29 00 · info@hoteleuropa.eu."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "La seva web recomana reservar a la seva pròpia web (preu mínim garantit). Aquí pots escriure a info@hoteleuropa.eu o trucar al +34 915 21 29"
+    },
+    {
+     "q": "Hi ha gimnàs?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 91 521 29 00 · info@hoteleuropa.eu."
+    }
+   ],
+   "chips": [
+    "Quant costa una habitació?",
+    "Hi ha pàrquing?",
+    "Admeteu mascotes?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat1",
+    "stat3"
+   ],
+   "chat": [
+    {
+     "q": "What room types are there?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are single and double rooms and suites for up to 4 guests (a suite of 2 separate rooms and 2 bathrooms), with views of the domed court"
+    },
+    {
+     "q": "Is there a safe and wifi?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "All rooms have a full bathroom with hairdryer, TV with international channels, direct phone, a free safe, fridge, heating and air conditioni"
+    },
+    {
+     "q": "How much is a room?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "\"From\" rates per night according to their website (29/10/2026): €92 the single; €102 the double; €112 the single with views of Puerta del So"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Their website says pets are not accepted."
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "It has partner parking on Calle Arenal and Calle Jacometrezo, 200 metres from the hotel, with limited spaces and advance booking. Their webs"
+    },
+    {
+     "q": "Is there a restaurant or cafe?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Café Europa is open to the public: breakfasts, a special menu, tapas, afternoon snacks, dinners and cocktails on a terrace on Puerta del Sol"
+    },
+    {
+     "q": "Are there adapted rooms?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It has 3 rooms adapted for people with reduced mobility, on request: two for up to 2 guests and one for 3. Their website also says the resta"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Their website recommends booking on their own website (lowest price guaranteed). Here you can email info@hoteleuropa.eu or call +34 915 21 2"
+    },
+    {
+     "q": "How do I get there by metro?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "It is at Calle del Carmen 4, 28013 Madrid, right on Puerta del Sol, on a pedestrian street. On the square there is metro (lines 1, 2 and 3) "
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Phones +34 915 21 29 00 and +34 626 482 038; email info@hoteleuropa.eu."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Their legal notice gives Garabán Vicente, S.A. (CIF A81841942) as the company name, with its address at Calle del Carmen 4, Madrid."
+    },
+    {
+     "q": "How many stars does it have?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Their website presents it as Hotel Europa *** (three stars) and says it occupies a classic building from 1860, where the painter Juan Gris w"
+    },
+    {
+     "q": "Is there a 24-hour reception?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "The reception is open 24 hours a day, with a multilingual team in Spanish, English, French, Italian and Portuguese."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 91 521 29 00 · info@hoteleuropa.eu."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Their website recommends booking on their own website (lowest price guaranteed). Here you can email info@hoteleuropa.eu or call +34 915 21 2"
+    },
+    {
+     "q": "Is there a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 91 521 29 00 · info@hoteleuropa.eu."
+    }
+   ],
+   "chips": [
+    "How much is a room?",
+    "Is there parking?",
+    "Are pets allowed?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat1",
+    "stat3"
+   ],
+   "chat": [
+    {
+     "q": "Quels types de chambre y a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a des chambres individuelles, doubles et des suites pour 4 personnes au maximum (suite de 2 chambres indépendantes et 2 salles de bain)"
+    },
+    {
+     "q": "Y a-t-il un coffre-fort et le wifi ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Toutes les chambres ont une salle de bain complète avec sèche-cheveux, TV avec chaînes internationales, téléphone direct, coffre-fort gratui"
+    },
+    {
+     "q": "Combien coûte une chambre ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Tarifs « à partir de » par nuit selon leur site (29/10/2026) : 92 € la chambre individuelle ; 102 € la double ; 112 € l'individuelle avec vu"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Leur site indique que les animaux ne sont pas acceptés."
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il dispose d'un parking conventionné calle Arenal et calle Jacometrezo, à 200 mètres de l'hôtel, avec places limitées et réservation préalab"
+    },
+    {
+     "q": "Y a-t-il un restaurant ou un café ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Le Café Europa est ouvert au public : petits-déjeuners, menu spécial, tapas, goûters, dîners et cocktails sur une terrasse de la Puerta del "
+    },
+    {
+     "q": "Y a-t-il des chambres adaptées ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il dispose de 3 chambres adaptées aux personnes à mobilité réduite, sur demande : deux pour 2 personnes au maximum et une pour 3. Leur site "
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Leur site recommande de réserver sur leur propre site (prix minimum garanti). Ici vous pouvez écrire à info@hoteleuropa.eu ou appeler le +34"
+    },
+    {
+     "q": "Comment venir en métro ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Il est situé calle del Carmen 4, 28013 Madrid, en pleine Puerta del Sol, dans une rue piétonne. Sur la place il y a le métro (lignes 1, 2 et"
+    },
+    {
+     "q": "Quel est le téléphone ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Téléphones +34 915 21 29 00 et +34 626 482 038 ; e-mail info@hoteleuropa.eu."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Leurs mentions légales indiquent Garabán Vicente, S.A. (CIF A81841942) comme dénomination sociale, avec siège calle del Carmen 4, Madrid."
+    },
+    {
+     "q": "Combien d'étoiles a-t-il ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Leur site le présente comme Hotel Europa *** (trois étoiles) et indique qu'il occupe un immeuble classique de 1860, où est né le 23 mars 188"
+    },
+    {
+     "q": "Y a-t-il une réception 24 h/24 ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "La réception est ouverte 24 h/24, avec une équipe multilingue en espagnol, anglais, français, italien et portugais."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 91 521 29 00 · info@hoteleuropa.eu."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Leur site recommande de réserver sur leur propre site (prix minimum garanti). Ici vous pouvez écrire à info@hoteleuropa.eu ou appeler le +34"
+    },
+    {
+     "q": "Y a-t-il une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 91 521 29 00 · info@hoteleuropa.eu."
+    }
+   ],
+   "chips": [
+    "Combien coûte une chambre ?",
+    "Y a-t-il un parking ?",
+    "Les animaux sont-ils admis ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
