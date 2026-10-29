@@ -2,8 +2,8 @@
  "schema": "berawa-project/1",
  "slug": "demo-hotel-europa-madrid",
  "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
- "created_at": "2026-10-29T01:46:00+01:00",
- "updated_at": "2026-10-29T02:10:00+01:00",
+ "created_at": "2026-10-29T01:45:00+01:00",
+ "updated_at": "2026-10-29T01:49:00+01:00",
  "business": {
   "name": "Hotel Europa",
   "legal_name": "GARABAN VICENTE, S.A.",
@@ -51,7 +51,7 @@
  },
  "audit_original": {
   "url": "https://www.hoteleuropa.eu/",
-  "date": "2026-10-29T01:46:00+01:00",
+  "date": "2026-10-29T01:45:00+01:00",
   "veredicto": "LCP > 4 s",
   "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
  },

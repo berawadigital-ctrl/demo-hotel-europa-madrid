@@ -1,7 +1,7 @@
 {
  "schema": "berawa-sources/1",
  "site": "https://www.hoteleuropa.eu/",
- "read_at": "2026-10-29T01:50:00+01:00",
+ "read_at": "2026-10-29T01:46:00+01:00",
  "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
  "pages": [
   {

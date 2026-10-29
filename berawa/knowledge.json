@@ -2,7 +2,7 @@
  "schema": "berawa-knowledge/1",
  "project": "demo-hotel-europa-madrid",
  "source_site": "https://www.hoteleuropa.eu/",
- "source_read_at": "2026-10-29T01:50:00+01:00",
+ "source_read_at": "2026-10-29T01:46:00+01:00",
  "note": "Respuestas solo con datos publicados en hoteleuropa.eu. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.",
  "entries": [
   {

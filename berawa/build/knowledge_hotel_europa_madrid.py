@@ -1,4 +1,4 @@
-# Base de conocimiento del chatbot. Cada entrada: claves por idioma, respuesta por idioma y fuentes (URL + cita literal de la web del negocio, leida el 29/10/2026 01:50).
+# Base de conocimiento del chatbot. Cada entrada: claves por idioma, respuesta por idioma y fuentes (URL + cita literal de la web del negocio, leida el 29/10/2026 01:46).
 U='https://www.hoteleuropa.eu/'
 def E(id,topic,keys,a,src,cta=False): return dict(id=id,topic=topic,keys=keys,a=a,sources=[dict(url=U+u,quote=q) for u,q in src],cta=cta)
 HOME=''; HAB='habitaciones/'; SER='servicios/'; SIT='puertadelsol-madrid-centro/'; CAF='cafe-europa/'; ADA='habitaciones-adaptadas/'; LEG='aviso-legal/'
@@ -65,5 +65,5 @@ E('K13','recepción e idiomas',
  dict(es='La recepción atiende las 24 horas del día, con equipo multilingüe en español, inglés, francés, italiano y portugués.',ca='La recepció atén les 24 hores del dia, amb equip multilingüe en castellà, anglès, francès, italià i portuguès.',en='The reception is open 24 hours a day, with a multilingual team in Spanish, English, French, Italian and Portuguese.',fr='La réception est ouverte 24 h/24, avec une équipe multilingue en espagnol, anglais, français, italien et portugais.'),
  [(SER,'Recepción Las 24 horas del día'),(SER,'Nuestro equipo de recepción multilingüe le atenderá en español, inglés, francés, italiano y portugués')]),
 ]
-KB=dict(schema='berawa-knowledge/1',project='demo-hotel-europa-madrid',source_site='https://www.hoteleuropa.eu/',source_read_at='2026-10-29T01:50:00+01:00',
+KB=dict(schema='berawa-knowledge/1',project='demo-hotel-europa-madrid',source_site='https://www.hoteleuropa.eu/',source_read_at='2026-10-29T01:46:00+01:00',
  note='Respuestas solo con datos publicados en hoteleuropa.eu. Sin coincidencia: el asistente dice que no dispone de la informacion y ofrece contacto.',entries=ENTRIES)

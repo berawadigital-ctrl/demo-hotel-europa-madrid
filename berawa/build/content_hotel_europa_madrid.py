@@ -64,7 +64,7 @@ D=dict(name='Hotel Europa',ac='#1d3557',ac2='#b8893a',ac2_a11y='#6b4d12',book=BO
  address='Calle del Carmen 4 · 28013 Madrid',phones=['91 521 29 00'],emails=['info@hoteleuropa.eu'],maps='Hotel Europa, Calle del Carmen 4, Madrid',t=T)
 META=dict(repo='demo-hotel-europa-madrid',name='Hotel Europa',legal_name='GARABAN VICENTE, S.A.',registry_ids=['CIF A81841942'],
  url='https://www.hoteleuropa.eu/',domain='hoteleuropa.eu',municipality='Madrid',province='Madrid',sector='hotel de tres estrellas en el centro historico',
- read_at='2026-10-29T01:50:00+01:00',created_at='2026-10-29T01:46:00+01:00',built_at='2026-10-29T02:10:00+01:00',audit_date='2026-10-29T01:46:00+01:00',
+ read_at='2026-10-29T01:46:00+01:00',created_at='2026-10-29T01:45:00+01:00',built_at='2026-10-29T01:49:00+01:00',audit_date='2026-10-29T01:45:00+01:00',
  rating=dict(value=4.5,coincide=['telefono','web'],date='2026-10-29T01:23:15+01:00',url='https://www.google.com/maps/place/Hotel+Europa+Madrid/@40.4175032,-3.7033915,17z/data=!4m9!3m8!1s0xd42287e05a2aa03:0x463fb2471eaed730!5m2!4m1!1i2!8m2!3d40.4175032!4d-3.7033915!16s%2Fg%2F1jglzv9l0'),
  book=dict(mode='mail',email='info@hoteleuropa.eu',note='La web del negocio reserva con el motor Mirai (widget sin URL propia): la demo usa solo contacto real (correo y telefono).'),
  first_of_type='primer tipo de negocio sin precedente: hotel urbano de tres estrellas (el modelo aprobado Cazorla Rural es alojamiento rural)')
